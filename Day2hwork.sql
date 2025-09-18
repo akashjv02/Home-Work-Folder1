@@ -17,3 +17,7 @@ SELECT * FROM library_manage WHERE title = 'The Great Gatsby';
 
 --Select all the books that are not written by 'Dan Brown'--
 SELECT * FROM library_manage WHERE author != 'Dan Brown';
+--Select all the books that have price between 200 and 500--
+SELECT * FROM library_manage WHERE price BETWEEN 200 AND 500;       
+--Select all the books where the genre contains the word 'Fantasy'--
+SELECT * FROM library_manage WHERE genre LIKE '%Fantasy%';
