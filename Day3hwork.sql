@@ -13,3 +13,4 @@ SELECT title,price, (price * 1.10) AS '10% price GST' FROM books_table;
 --display the title,price and stock_status of all books, sorted by price from highest to lowest--
 SELECT title, price, stock_status FROM books_table ORDER BY price DESC;
 
+
