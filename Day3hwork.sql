@@ -1,3 +1,12 @@
+--Inserting data into the books_table--
+INSERT INTO books_table (title, author, genre, price, stock_status) 
+VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', 'Fiction', 300, 'In stock'),
+('To Kill a Mockingbird', 'Harper Lee', 'Fiction', 450, 'In stock'),
+('1984', 'George Orwell', 'Dystopian', 500, 'Out of stock'),
+('Pride and Prejudice', 'Jane Austen', 'Romance', 350, 'In stock'),
+('The Catcher in the Rye', 'J.D. Salinger', 'Fiction', 400, 'In stock'),
+('The Hobbit', 'J.R.R. Tolkien', 'Fantasy', 600, 'Out of stock');
+
 --Show all the different genres available in the store(no duplicates)--
 SELECT DISTINCT genre FROM books_table;
 
