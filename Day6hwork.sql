@@ -19,6 +19,6 @@ SELECT title, release_year AS 'Release'
 FROM movies
 WHERE release_year BETWEEN 2008 AND 2015;
 
-SELECT title AS 'High Rated Movies' 
+SELECT COUNT(*) AS 'High Rated Movies' 
 FROM movies
 WHERE rating > 8.5;
